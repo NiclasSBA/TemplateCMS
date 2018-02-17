@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ItemPage.Master.cs" Inherits="CMStopicutopia.Global" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="header" runat="server">
+            </asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ItemName" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ItemImage" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ItemCat" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ItemDesc" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+            </asp:ContentPlaceHolder>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\bin\CMStopicutopia.dll.config
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\bin\CMStopicutopia.dll
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\bin\CMStopicutopia.pdb
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\obj\Debug\CMStopicutopia.csprojResolveAssemblyReference.cache
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\obj\Debug\CMStopicutopia.csproj.CoreCompileInputs.cache
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\obj\Debug\CMStopicutopia.dll
+C:\Users\nicla\source\repos\CMStopicutopia\CMStopicutopia\obj\Debug\CMStopicutopia.pdb
