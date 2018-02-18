@@ -1,0 +1,18 @@
+﻿body {
+}
+
+
+.container-items{
+    display:flex;
+    div{
+        display:flex;
+        flex-direction:column;
+    }
+
+}
+
+
+.image-size {
+    width: 100%;
+    height: auto;
+}

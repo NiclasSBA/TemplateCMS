@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "StyleSheetIndex.css",
+    "inputFile": "StyleSheetIndex.scss"
+  },
+  {
+    "outputFile": "StyleSheetItems.css",
+    "inputFile": "StyleSheetItems.scss"
+  }
+]
