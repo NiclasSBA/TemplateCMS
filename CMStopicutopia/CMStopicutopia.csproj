@@ -66,10 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPage.aspx" />
     <Content Include="App_Data\effe.png" />
     <Content Include="Itempage.aspx" />
     <Content Include="ItemPage.Master" />
     <Content Include="CategoryPage.Master" />
+    <Content Include="App_Themes\Theme1\Skins.skin" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -101,6 +103,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CategoryPage.Master.cs">
       <DependentUpon>CategoryPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,6 +141,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Themes\Skins\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>

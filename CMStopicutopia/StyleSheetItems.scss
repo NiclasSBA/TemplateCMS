@@ -1,18 +1,115 @@
 ﻿body {
-}
+    
+    nav{
+        ul{
+            list-style:none;
+            display:flex;
+            align-items:center;
+            li{
+                height: 30px;
+                display:block;
+                margin: 0 5px;
+                
+                a{
+                    text-decoration:none;
+                }
+            }
 
+        }
 
-.container-items{
-    display:flex;
-    div{
-        display:flex;
-        flex-direction:column;
     }
-
 }
-
-
-.image-size {
+*{background-color: #ccc;}
+input[type="submit"] {
+    width:100%;
+    height: 30px;
+}
+input[type="text"] {
     width: 100%;
-    height: auto;
 }
+select{
+   width:100%;
+    height: 30px;
+    option{
+           height: 30px;
+       }}
+.container-contain{display:flex;
+                   div{
+                       #joke{
+
+                           display:flex;
+                           flex-direction:column;
+                           height:100%;
+                           justify-content:center;
+                       }}
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    #maintext {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+}
+#main-div-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+
+    div {
+        min-width: 100%;
+        
+       
+    }
+}
+h3{text-align:center;}
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        //min-width: fit-content;
+       
+        img {
+            max-width: 100%;
+            height:auto;
+            
+            }
+
+        span {
+            text-align: center;
+        }
+
+        
+    }
+}
+#row_label2 {
+    margin-bottom: 10px;
+}
+#row_ItemGridView tbody tr td img, #ItemGridView tbody tr td img {
+    width: 100px;
+}
+
+#row_mainImage {
+    max-width: 100%;
+    height: auto
+}
+
+#row_ItemGridView{
+    tbody{
+        tr{
+              td{
+                  max-width:100%;
+             }
+
+        }
+
+    }
+}
+

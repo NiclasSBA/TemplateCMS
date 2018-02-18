@@ -5,13 +5,21 @@
 <html>
 <head runat="server">
 
-
+    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="AdminPage.aspx">Admin Page</a></li>
+            <li> <a href="Itempage.aspx">Item Page</a></li>
+            
+        </ul>
+        
+    </nav>
     <asp:ContentPlaceHolder ID="header" runat="server">
             </asp:ContentPlaceHolder>
     <form id="form1" runat="server">
@@ -31,6 +39,7 @@
 
 
     <asp:ContentPlaceHolder ID="footer" runat="server">
+        Very interesting footer
             </asp:ContentPlaceHolder>
 </body>
 </html>

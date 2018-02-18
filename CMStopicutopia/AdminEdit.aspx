@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminEdit.aspx.cs" Inherits="CMStopicutopia.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ItemPage.Master" CodeBehind="AdminEdit.aspx.cs" Inherits="CMStopicutopia.Index" %>
 
 <!DOCTYPE html>
 

@@ -1,10 +1,81 @@
-﻿.container-items {
+﻿body nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; }
+  body nav ul li {
+    height: 30px;
+    display: block;
+    margin: 0 5px; }
+    body nav ul li a {
+      text-decoration: none; }
+
+* {
+  background-color: #ccc; }
+
+input[type="submit"] {
+  width: 100%;
+  height: 30px; }
+
+input[type="text"] {
+  width: 100%; }
+
+select {
+  width: 100%;
+  height: 30px; }
+  select option {
+    height: 30px; }
+
+.container-contain {
   display: flex; }
+  .container-contain div #joke {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .container #maintext {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%; }
+
+#main-div-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%; }
+  #main-div-item div {
+    min-width: 100%; }
+
+h3 {
+  text-align: center; }
+
+.container-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
   .container-items div {
     display: flex;
     flex-direction: column; }
+    .container-items div img {
+      max-width: 100%;
+      height: auto; }
+    .container-items div span {
+      text-align: center; }
 
-.image-size {
-  width: 100%;
+#row_label2 {
+  margin-bottom: 10px; }
+
+#row_ItemGridView tbody tr td img, #ItemGridView tbody tr td img {
+  width: 100px; }
+
+#row_mainImage {
+  max-width: 100%;
   height: auto; }
+
+#row_ItemGridView tbody tr td {
+  max-width: 100%; }
 
