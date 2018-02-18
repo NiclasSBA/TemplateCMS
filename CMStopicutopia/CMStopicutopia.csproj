@@ -66,9 +66,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\effe.png" />
+    <Content Include="Itempage.aspx" />
     <Content Include="ItemPage.Master" />
     <Content Include="CategoryPage.Master" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <Content Include="StyleSheetIndex.css">
+      <DependentUpon>StyleSheetIndex.scss</DependentUpon>
+    </Content>
+    <Content Include="StyleSheetIndex.min.css">
+      <DependentUpon>StyleSheetIndex.css</DependentUpon>
+    </Content>
+    <Content Include="StyleSheetIndex.scss" />
+    <Content Include="StyleSheetItems.css">
+      <DependentUpon>StyleSheetItems.scss</DependentUpon>
+    </Content>
+    <Content Include="StyleSheetItems.min.css">
+      <DependentUpon>StyleSheetItems.css</DependentUpon>
+    </Content>
+    <Content Include="StyleSheetItems.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,7 +97,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.aspx" />
+    <Content Include="AdminEdit.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +108,13 @@
     <Compile Include="CategoryPage.Master.designer.cs">
       <DependentUpon>CategoryPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Itempage.aspx.cs">
+      <DependentUpon>Itempage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Itempage.aspx.designer.cs">
+      <DependentUpon>Itempage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ItemPage.Master.cs">
       <DependentUpon>ItemPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,17 +122,16 @@
     <Compile Include="ItemPage.Master.designer.cs">
       <DependentUpon>ItemPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="AdminEdit.aspx.cs">
+      <DependentUpon>AdminEdit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="AdminEdit.aspx.designer.cs">
+      <DependentUpon>AdminEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
