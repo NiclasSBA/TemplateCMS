@@ -53,7 +53,7 @@ namespace CMStopicutopia
 
                             FileUpload.SaveAs(Server.MapPath("~/App_Data/" + TextBoxNewName.Text + extension));
                             FileUpload.SaveAs(Server.MapPath("~/Images/" + TextBoxNewName.Text + extension));
-                            TextBoxNewName.Text = "";
+                           
                             statusInfo.Text = "File uploaded, brother " + FileUpload.PostedFile.FileName + FileUpload.PostedFile.ContentLength.ToString() + FileUpload.PostedFile.ContentType + DropDownListCat.SelectedValue.ToString();
 
                             try
@@ -74,7 +74,7 @@ namespace CMStopicutopia
                                 newrow["origin"] = Convert.ToInt32(DropDownListOrigin.SelectedValue.ToString());
                                 newrow["main_Cat"] = Convert.ToInt32(DropDownListCat.SelectedValue.ToString());
 
-                                newrow["image"] = Convert.ToString(filename);
+                                newrow["image"] = Convert.ToString(TextBoxNewName.Text + extension);
                                 dt.Rows.Add(newrow);
                                 if (CheckBoxStatus.Checked)
                                 {
@@ -95,6 +95,7 @@ namespace CMStopicutopia
                                 da.InsertCommand = cmd;
                                 da.Update(ds, "MyItems");
                                 UpdateGridview();
+                                TextBoxNewName.Text = "";
                             }
                             catch (Exception ex)
                             {

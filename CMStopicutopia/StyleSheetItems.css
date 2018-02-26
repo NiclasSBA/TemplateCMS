@@ -9,9 +9,6 @@
     body nav ul li a {
       text-decoration: none; }
 
-* {
-  background-color: #ccc; }
-
 input[type="submit"] {
   width: 100%;
   height: 30px; }
